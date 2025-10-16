@@ -1,0 +1,7 @@
+/* 1440px - 1195px */
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1194px;
+    padding: 0 32px;
+  }
+}
