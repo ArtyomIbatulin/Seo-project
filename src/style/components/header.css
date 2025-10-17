@@ -1,6 +1,115 @@
-/* Header styles will be here */
 .header {
-  /* временно */
-  background: #fff;
-  padding: 20px 0;
+  background: #0F1037;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/* Logo Element */
+.header__logo {
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
+
+/* Navigation Block */
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Actions Block */
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Button Block */
+.button {
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 12px 24px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Button Modifiers */
+.button--login {
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.button--login:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.button--primary {
+  background: #1574F7;
+  color: #FFFFFF;
+  border-color: #1574F7;
+}
+
+.button--primary:hover {
+  background: #0d5bc3;
+  border-color: #0d5bc3;
+}
+
+/* Burger Menu */
+.header__burger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  gap: 4px;
+}
+
+.burger__line {
+  width: 24px;
+  height: 2px;
+  background: #FFFFFF;
+  transition: all 0.3s ease;
 }

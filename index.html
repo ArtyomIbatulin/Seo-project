@@ -14,7 +14,51 @@
   <body>
     <div id="app">
       <header class="header">
-        <!-- Header будет здесь -->
+        <div class="container">
+          <div class="header__content">
+            <!-- Логотип -->
+            <div class="header__logo">
+              <img src="/src/assets/logo.svg" alt="SEO System" class="logo" />
+            </div>
+
+            <!-- Навигация -->
+            <nav class="header__nav">
+              <ul class="nav">
+                <li class="nav__item">
+                  <a href="#features" class="nav__link">Возможности</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#pricing" class="nav__link">Тарифы</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#faq" class="nav__link">FAQ</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#blog" class="nav__link">Блог</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Кнопки действий -->
+            <div class="header__actions">
+              <button class="button button--login" type="button">Войти</button>
+              <button class="button button--primary" type="button">
+                Начать анализ
+              </button>
+            </div>
+
+            <!-- Бургер-меню -->
+            <button
+              class="header__burger burger"
+              type="button"
+              aria-label="Открыть меню"
+            >
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </button>
+          </div>
+        </div>
       </header>
 
       <main class="main">
