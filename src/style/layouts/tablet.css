@@ -4,4 +4,36 @@
     max-width: 768px;
     padding: 0 24px;
   }
+
+  .services {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.services__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services__title {
+  width: 445px;
+  font-size: 32px;
+}
+
+.services__subtitle {
+  width: 445px;
+  font-size: 18px;
+}
+
+.services__track {
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 338.25px;
+  height: 369px;
+}
 }

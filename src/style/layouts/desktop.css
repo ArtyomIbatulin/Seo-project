@@ -4,4 +4,12 @@
     max-width: 1194px;
     padding: 0 32px;
   }
+  .services {
+  padding: 60px 100px;
+}
+
+.service-card {
+  width: 407px;
+  height: 444px;
+}
 }

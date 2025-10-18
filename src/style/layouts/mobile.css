@@ -4,4 +4,112 @@
     max-width: 390px;
     padding: 0 16px;
   }
+
+  .services {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
+
+.services__title {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.services__slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.services__track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card {
+  min-width: 314px;
+  height: 341px;
+  background-color: #f4f4f4;
+  border-radius: 33px;
+  flex-shrink: 0;
+  padding: 20px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+
+.service-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-card__label {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.service-card__title {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.service-card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.service-card__number {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.service-card__growth {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-weight: 400;
+}
+
+.service-card__rocket {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services__dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 8px;
+}
+
+.services__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.services__dot--active {
+  background-color: #000;
+}
+}
+
