@@ -1,5 +1,5 @@
 /* 768px и меньше */
-@media (max-width: 768px) {
+
   .container {
     max-width: 390px;
     padding: 0 16px;
@@ -8,6 +8,7 @@
   .services {
   padding: 20px;
   font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
 }
 
 .services__title {
@@ -111,5 +112,5 @@
 .services__dot--active {
   background-color: #000;
 }
-}
+
 
