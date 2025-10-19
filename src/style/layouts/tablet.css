@@ -36,4 +36,63 @@
   width: 338.25px;
   height: 369px;
 }
+
+/* ===== SERVICES GRID TABLET ===== */
+@media screen and (min-width: 391px) and (max-width: 1194px) {
+    .services-grid {
+        padding: 60px 0;
+    }
+    
+    .services-grid__container {
+        max-width: 1126px;
+        padding: 0 10px;
+    }
+    
+    .services-grid__content {
+        height: 300px;
+        gap: 16px;
+    }
+    
+    .service-item--main {
+        width: 500px;
+    }
+    
+    .service-item--closed {
+        width: 60px;
+    }
+    
+    .service-item--open {
+        width: 200px;
+    }
+    
+    .service-item__open {
+        width: 200px;
+    }
+    
+    .service-item__vertical-text {
+        font-size: 16px;
+    }
+    
+    .service-item__content-overlay {
+        padding: 12px 10px;
+    }
+    
+    .service-item__title {
+        font-size: 20px;
+    }
+    
+    .service-item__description {
+        font-size: 14px;
+    }
+    
+    .service-item__icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .service-item__icon img {
+        width: 35px;
+        height: 35px;
+    }
+}
 }
